@@ -79,59 +79,61 @@
         </div>
 
         <!-- Card List -->
-<div class="space-y-6">
+<!-- Контейнер витрины -->
+<section class="max-w-4xl mx-auto px-4 py-8">
+    <h2 class="text-2xl font-bold text-center text-gray-800 mb-8">Кращі пропозиції з 0% на першу позику</h2>
     
-    <!-- Card 1: MyCredit -->
-    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all flex flex-col md:flex-row items-center p-6 md:p-8">
-        <!-- Уніфікований контейнер лого -->
-        <div class="w-48 h-20 flex items-center justify-center p-3 bg-gray-50 rounded-xl flex-shrink-0">
-            <img src="https://media.mycredit.ua/images/header/logo-medium-UA.svg" alt="MyCredit" class="max-w-full max-h-full object-contain">
-        </div>
-
-        <!-- Контентна частина -->
-        <div class="flex-1 px-0 md:px-10 py-4 md:py-0 text-center md:text-left w-full">
-            <h3 class="text-2xl font-bold text-gray-800">MyCredit</h3>
-            <div class="flex flex-wrap justify-center md:justify-start gap-x-6 gap-y-2 mt-3 text-sm text-gray-600">
-                <span class="flex items-center"><i class="fa-solid fa-money-bill-1 text-green-500 mr-2"></i> До 18 000 грн</span>
-                <span class="flex items-center"><i class="fa-solid fa-clock text-blue-500 mr-2"></i> 5-15 хвилин</span>
-                <span class="flex items-center"><i class="fa-solid fa-percent text-orange-500 mr-2"></i> Перша під 0.01%</span>
+    <!-- Сетка: 1 колонка на мобилках, 3 колонки на десктопе -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Оффер 1: Moneyveo (Акцент на популярность) -->
+        <div class="relative bg-white border-2 border-green-500 rounded-2xl p-6 shadow-lg flex flex-col justify-between">
+            <span class="absolute -top-3 right-4 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Вибір року</span>
+            <div>
+                <h3 class="text-xl font-extrabold text-gray-900 mb-2">Moneyveo</h3>
+                <p class="text-sm text-gray-600 mb-4">Перша позика під <span class="font-bold text-green-600 text-lg">0.01%</span></p>
+                <ul class="text-sm text-gray-700 space-y-2 mb-6">
+                    <li>✅ До 25 000 грн</li>
+                    <li>🚀 Рішення за 2 хвилини</li>
+                </ul>
             </div>
-        </div>
-
-        <!-- Кнопка -->
-        <div class="w-full md:w-auto flex-shrink-0">
-            <a href="#" class="block w-full md:w-48 text-center bg-orange-500 hover:bg-orange-600 text-white font-extrabold py-4 px-6 rounded-xl transition-all shadow-lg shadow-orange-100">
+            <a href="ТВОЄ_ПОСИЛАННЯ_1" class="block w-full bg-yellow-400 hover:bg-yellow-500 text-center text-black font-bold py-3 rounded-xl transition duration-200 shadow-md active:scale-95">
                 Отримати гроші
             </a>
         </div>
-    </div>
 
-    <!-- Card 2: Moneyveo -->
-    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all flex flex-col md:flex-row items-center p-6 md:p-8">
-        <!-- Той самий розмір контейнера лого -->
-        <div class="w-48 h-20 flex items-center justify-center p-3 bg-gray-50 rounded-xl flex-shrink-0">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Moneyveo_logo.svg/960px-Moneyveo_logo.svg.png" alt="Moneyveo" class="max-w-full max-h-full object-contain">
-        </div>
-
-        <!-- Контентна частина (відступи ідентичні Card 1) -->
-        <div class="flex-1 px-0 md:px-10 py-4 md:py-0 text-center md:text-left w-full">
-            <h3 class="text-2xl font-bold text-gray-800">Moneyveo</h3>
-            <div class="flex flex-wrap justify-center md:justify-start gap-x-6 gap-y-2 mt-3 text-sm text-gray-600">
-                <span class="flex items-center"><i class="fa-solid fa-money-bill-1 text-green-500 mr-2"></i> До 30 000 грн</span>
-                <span class="flex items-center"><i class="fa-solid fa-clock text-blue-500 mr-2"></i> Миттєво 24/7</span>
-                <span class="flex items-center"><i class="fa-solid fa-shield-check text-blue-500 mr-2"></i> Без довідок</span>
+        <!-- Оффер 2: CreditPlus (Акцент на скорость) -->
+        <div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition">
+            <div>
+                <h3 class="text-xl font-extrabold text-gray-900 mb-2">CreditPlus</h3>
+                <p class="text-sm text-gray-600 mb-4">Ставка для нових клієнтів <span class="font-bold text-blue-600">0.01%</span></p>
+                <ul class="text-sm text-gray-700 space-y-2 mb-6">
+                    <li>✅ До 15 000 грн</li>
+                    <li>💳 Тільки паспорт та код</li>
+                </ul>
             </div>
-        </div>
-
-        <!-- Кнопка (ідентична Card 1) -->
-        <div class="w-full md:w-auto flex-shrink-0">
-            <a href="#" class="block w-full md:w-48 text-center bg-orange-500 hover:bg-orange-600 text-white font-extrabold py-4 px-6 rounded-xl transition-all shadow-lg shadow-orange-100">
+            <a href="ТВОЄ_ПОСИЛАННЯ_2" class="block w-full bg-yellow-400 hover:bg-yellow-500 text-center text-black font-bold py-3 rounded-xl transition duration-200 shadow-md active:scale-95">
                 Отримати гроші
             </a>
         </div>
-    </div>
 
-</div>
+        <!-- Оффер 3: Miloan (Акцент на одобрение) -->
+        <div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm flex flex-col justify-between hover:shadow-md transition">
+            <div>
+                <h3 class="text-xl font-extrabold text-gray-900 mb-2">Miloan</h3>
+                <p class="text-sm text-gray-600 mb-4">Високий відсоток <span class="font-bold text-purple-600">схвалення</span></p>
+                <ul class="text-sm text-gray-700 space-y-2 mb-6">
+                    <li>✅ До 20 000 грн</li>
+                    <li>⏱ Працює 24/7</li>
+                </ul>
+            </div>
+            <a href="ТВОЄ_ПОСИЛАННЯ_3" class="block w-full bg-yellow-400 hover:bg-yellow-500 text-center text-black font-bold py-3 rounded-xl transition duration-200 shadow-md active:scale-95">
+                Отримати гроші
+            </a>
+        </div>
+
+    </div>
+</section>
 
         <!-- Section: FAQ -->
 <section class="mt-20 border-t pt-10">
