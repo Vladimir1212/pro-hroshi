@@ -8,7 +8,7 @@
 ---
 
 ## 📸 Превью интерфейса
-![Pro Hroshi Preview](preview.jpg)
+![Pro Hroshi Preview](preview.png)
 
 ---
 
